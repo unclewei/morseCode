@@ -1,0 +1,4 @@
+<!--pages/decode/decode.wxml-->
+
+<image class='image' src='../images/morse-learn.png' mode='widthFix'></image>
+<button class='contact' open-type="contact">联系客服</button>

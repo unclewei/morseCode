@@ -1,0 +1,106 @@
+/**index.wxss**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items:  center flex-start;
+  padding: 100rpx 0;
+}
+
+.title-text {
+  color: #00ba30;
+  font-size: 32rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1px silver #999;
+  margin-bottom: 30rpx;
+}
+
+.text-textarea {
+  width: 90%;
+  max-height: 300rpx;
+  min-height: 160rpx;
+}
+
+.view-translation{
+width: 90%;
+display: flex;
+flex-direction: row;
+margin-bottom: 30rpx
+}
+.transparent-btn {
+  height: 160rpx;
+  width: 95%;
+  z-index: 99;
+  margin-top: -160rpx;
+  opacity: 0;
+}
+
+.btn-translation {
+  padding: 0;
+  width: 45%;
+  height: 90rpx;
+  background: #00ba30;
+  color: white;
+  border:  1rpx solid white;
+  border-radius: 10rpx;
+  margin-right: 30rpx;
+}
+.btn-translation::after{
+  border:  0;
+}
+
+.tools{
+  padding-right: 20rpx;
+  width: 720rpx;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10rpx 30rpx;
+
+}
+
+.tool{
+  margin: 0;
+  background-color: white;
+  border: 1px solid #00ba30;
+  padding: 3rpx 20rpx;
+  font-size: 25rpx;
+  border-radius: 3rpx;
+  color: #00ba30;
+  margin-left: 30rpx;
+}
+.tool::after{
+  border: 0
+}
+.tool::after{
+  border: 0
+}
+
+.text-result {
+  width: 90%;
+  min-height: 160rpx;
+  color: #333;
+  
+}
+.view-result{
+ border-radius: 15rpx; 
+  border: solid 2rpx #eaeaea;
+  width:90%;
+  padding:15rpx;
+  min-height: 160rpx;
+  margin-bottom: 30rpx;
+}
+
+.text-result  ::after{
+    border: 1 solid #999;
+}
+
+.text-30-light {
+  color: #999;
+  font-size: 30rpx;
+}
+
+.desc{
+  margin-top: 50rpx;
+  font-size: 28rpx;
+  color: #999;
+}

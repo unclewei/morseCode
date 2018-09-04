@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/decode/decode"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#99a7a7",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译",
+        "iconPath": "pages/images/code.png",
+        "selectedIconPath": "pages/images/code_choose.png"
+      },
+      {
+        "pagePath": "pages/decode/decode",
+        "text": "学习",
+        "iconPath": "pages/images/learn.png",
+        "selectedIconPath": "pages/images/learn_choose.png"
+      }
+    ]
+  }
+}

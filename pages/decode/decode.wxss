@@ -1,0 +1,19 @@
+page{
+padding-bottom: 60rpx;
+}
+.image {
+  width: 100%;
+}
+
+.contact {
+  margin-top: 50rpx;
+  margin-left: 5%;
+  border: 1rpx solid #00ba30;
+  background-color: white;
+  color: #00ba30;
+  width: 90%;
+  height: 90rpx;
+}
+.contact::after{
+  border:  0;
+}

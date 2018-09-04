@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <text class='title-text'>请输入要处理的内容</text>
+  <view class='tools'>
+    <button class='tool' bindtap='deleteOriginalText'>清除</button>
+    <button class='tool' bindtap='parse'>粘贴</button>
+  </view>
+  <view class='view-result'>
+    <textarea class='text-textarea' auto-height="true" placeholder-class="text-30-light" value='{{originalText}}' placeholder='请写入需要翻译的内容' bindinput='input'></textarea>
+  </view>
+
+  <!-- <button wx:if='{{needGetUserInfp}}'  class="transparent-btn" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"></button> -->
+
+  <view class='view-translation'>
+    <button class='btn-translation' bindtap='mosiToEnglish'>摩斯->英语</button>
+    <button class='btn-translation' bindtap='englishToMosi'>英语->摩斯</button>
+  </view>
+
+
+
+  <text class='title-text' bindtap='copy'>翻译内容(点击复制)</text>
+  <view class='view-result' bindtap='copy'>
+    <text class='text-result'>{{result}}</text>
+  </view>
+
+  <view class='desc'>只有英文和数字才能翻译成摩斯密码哟</view>
+</view>
