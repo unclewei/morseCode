@@ -1,17 +1,19 @@
 page{
-padding-bottom: 60rpx;
+  height: 100%
 }
 .image {
-  width: 100%;
+  margin-left: 5%;
+  width: 90%;
 }
 
 .contact {
-  margin-top: 50rpx;
-  margin-left: 5%;
+  margin-top: 20rpx;
+  margin-left: 10%;
+  margin-bottom: 20rpx;
   border: 1rpx solid #00ba30;
   background-color: white;
   color: #00ba30;
-  width: 90%;
+  width: 80%;
   height: 90rpx;
 }
 .contact::after{

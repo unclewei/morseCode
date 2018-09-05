@@ -1,12 +1,12 @@
 <!--index.wxml-->
 <view class="container">
-  <text class='title-text'>请输入要处理的内容</text>
+  <text class='title-text'>摩斯密码翻译器</text>
   <view class='tools'>
     <button class='tool' bindtap='deleteOriginalText'>清除</button>
     <button class='tool' bindtap='parse'>粘贴</button>
   </view>
   <view class='view-result'>
-    <textarea class='text-textarea' auto-height="true" placeholder-class="text-30-light" value='{{originalText}}' placeholder='请写入需要翻译的内容' bindinput='input'></textarea>
+    <textarea class='text-textarea' auto-height="true" placeholder-class="text-30-light" value='{{originalText}}' placeholder='请输入要翻译的英文或摩斯密码（摩斯密码中间用空格隔开）' bindinput='input'></textarea>
   </view>
 
   <!-- <button wx:if='{{needGetUserInfp}}'  class="transparent-btn" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"></button> -->
@@ -24,4 +24,6 @@
   </view>
 
   <view class='desc'>只有英文和数字才能翻译成摩斯密码哟</view>
+
+  <ad unit-id="adunit-721f4107fca6df30"></ad>
 </view>
